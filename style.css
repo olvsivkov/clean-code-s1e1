@@ -63,11 +63,6 @@ li > * {
     flex-grow: 1;
 }
 
-.task-row-wrapper {
-    display: flex;
-    padding: 20px 0;
-}
-
 .btn {
     background: none;
     border: 0px;

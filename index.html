@@ -9,18 +9,15 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body class="body">
-    <section class="header-img">
+    <header class="header-img">
       <img class="matrix-img" src="./eisenhower-matrix.jpg">
       <a class="matrix-info-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </section>
-    <section class="todo-wrapper"> 
+    </header>
+    <main class="todo-wrapper"> 
       <h3 class="title-style">Add item</h3>
-      <div class="task-row-wrapper">
         <ul class="add">
           <li class="list"><input id="new-task" class="task-input add" type="text"><button class="btn">Add</button></li>
-        </ul>
-        
-      </div>
+        </ul>        
       <h3 class="title-style">Todo</h3>
       <ul id="incomplete-tasks">
         <li class="list">
@@ -36,7 +33,7 @@
           <input type="checkbox" checked><label class="task">See the Doctor</label><input type="text" class="task-input"><button class="edit btn">Edit</button><button class="delete btn"><img class="delete-img" src="./remove.svg"></button>
         </li>
       </ul>
-    </section>
+    </main>
     <script src="./app.js"></script>	
   </body>
 </html>
